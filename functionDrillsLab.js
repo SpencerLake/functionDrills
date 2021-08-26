@@ -213,7 +213,7 @@ function uppercase(string){
   console.log(string.toUpperCase())
 }
 
-uppercase("f, g, h, j, k")
+uppercase(sampleString)
 
 ////////////////// PROBLEM 12 ////////////////////
 /*
@@ -224,6 +224,13 @@ uppercase("f, g, h, j, k")
 //CODE HERE
 
 
+function chocoBuy(gold){
+  let frog = 3
+  return Math.floor(gold / frog)
+}
+
+let totalFrogs = chocoBuy(12)
+console.log(totalFrogs)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
